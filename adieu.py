@@ -3,23 +3,9 @@ import inflect
 
 def main():
 
-    """
-        Title : Adieu, Adieu so long farwell
-        Description :
-
-            Implemented a program that sings the song
-            So long farewell - The movie The Sound Of Music,
-            https://www.youtube.com/watch?v=Qy9_lfjQopU
-            where the implemented names is created by the user
-
-            Usage : type in the terminal python adieu.py,
-            wait for the prompted message then type in some names.
-
-    """
-    #   Initializing constant lists
+    #   Initializing lists
     name = []
 
-    #   Creating a loop to iterate through the program
     while True:
 
         try:
@@ -35,5 +21,5 @@ def main():
 
     print(f'Adieu, adieu, to {inflect.engine().join(name, final_sep=",")}')
 
-
-main()
+if __name__ == "__main__":
+    main()

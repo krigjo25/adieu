@@ -1,13 +1,17 @@
 # Adieu
 
-## About Adieu
+## Description
 
+### Purpose of the project
+Originally this project was created as an assignment at CS50P - Introduction to Python.
+
+### Description
 Implemented a program that sings the song [So long farewell - The movie The Sound Of Music](https://www.youtube.com/watch?v=Qy9_lfjQopU), where the implemented names is created by the user
 
 Usage : type in the terminal python adieu.py, wait for the prompted message
 then type in some names.
 
-Originally this project was created as an assignment at CS50P - Introduction to Python.
+
 
 ##  About the testing framework
 
@@ -18,6 +22,11 @@ No testing framework used in the project
 ### Responsories
 
 [inflect - by Paul Dyson](https://github.com/jaraco/inflect)
+
+
+### What was learned by this project
+
+-   working with other's pypl projects
 
 ###  Disclamers
 
