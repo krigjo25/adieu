@@ -1,38 +1,76 @@
 # Adieu
+An application that outputs the song[So long farewell - The movie The Sound Of Music](https://www.youtube.com/watch?v=Qy9_lfjQopU)
+Where the names is replaced with inputed names.
 
-## Description
-
-### Purpose of the project
-Originally this project was created as an assignment at CS50P - Introduction to Python.
-
-### Description
-Implemented a program that sings the song [So long farewell - The movie The Sound Of Music](https://www.youtube.com/watch?v=Qy9_lfjQopU), where the implemented names is created by the user
-
-Usage : type in the terminal python adieu.py, wait for the prompted message
-then type in some names.
+The application was implemented as an assignment at CS50P
+Please respect, and keep the [Academic Honesty Policy](https://cs50.harvard.edu/x/2023/honesty/) in mind.<br>
+A demo of the application can be watched at [youtube]()
 
 
-
-##  About the testing framework
+##  Testing framework
 
 No testing framework used in the project
 
-##  Credits
+## Installation
 
-### Responsories
+1. Clone the repository:
+```sh
+git clone https://github.com/krigjo25/console-adieu-py.git
+```
 
-[inflect - by Paul Dyson](https://github.com/jaraco/inflect)
+2. Navigate to the project directory
+```sh
+cd console-adieu-py
+```
 
+3. Install the requirements
+```sh
+pip install -r requirements.txt
+```
+4. Run the file
+```sh
+python app.py
+```
 
-### What was learned by this project
+##  Usage
 
--   working with other's pypl projects
+To use the application, run the following command in your terminal
 
-###  Disclamers
+```sh
+Usage : type in the terminal python app.py, wait for the prompted message
+then type in some names.
+python app.py <Name>
+```
+Replace `<Name>` with the desired name, seperate the names with comma to add multiple name
 
-This code snippet may be used to debug
-your own code, but don't copy it,
-Please be aware, and respect the [Academic Honesty Policy](https://cs50.harvard.edu/x/2023/honesty/).
+## Example
 
-Sincerely,
+```sh
+python app.py
+
+prompt:
+Name : krigjo25, Krigjo25
+
+expected output:
+Adieu, adieu to Krigjo25, and Krigjo25
+```
+
+## LICENCE
+
+The application is under [The Unlicensed](./LICENCE).
+
+##  Testing framework
+
+The testing framwork for this project is pytest
+which is used to test the application. 
+To use the application, run the following command in your terminal:
+```sh
+pytest test_bank.py
+```
+
+## Notes from the developer
+
+Created with love, for python programming,
+
+Thanks for reading, and have a blessed day,<br>
 @krigjo25

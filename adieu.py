@@ -1,25 +1,19 @@
 #   Import responsories
-import inflect
+from inflect import engine
 
 def main():
 
-    #   Initializing lists
-    name = []
+    #  Declaring variable
+    x = type(None)
 
     while True:
 
-        try:
-            #   Prompt user for name
-            x = str(input('name :')).capitalize()
-            if len(x) == 0: raise EOFError()
+        #  Prompting user for input
+        x = str(input('name :')).capitalize()
 
-        except EOFError:
-            break
+        if len(x) > 0: break 
 
-        #   Append name
-        name.append(x)
-
-    print(f'Adieu, adieu, to {inflect.engine().join(name, final_sep=",")}')
+    print(f"Adieu, adieu to {engine().join([i.strip().title() for i in x.split(',')], final_sep=',')}")
 
 if __name__ == "__main__":
     main()
