@@ -1,5 +1,5 @@
 # Adieu
-An application that outputs the song[So long farewell - The movie The Sound Of Music](https://www.youtube.com/watch?v=Qy9_lfjQopU)
+An application that outputs the song [So long farewell - The movie The Sound Of Music](https://www.youtube.com/watch?v=Qy9_lfjQopU)
 Where the names is replaced with inputed names.
 
 The application was implemented as an assignment at CS50P
