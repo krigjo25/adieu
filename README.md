@@ -8,11 +8,9 @@ A demo of the application can be watched at [youtube]()
 
 
 ##  Testing framework
-
 No testing framework used in the project
 
 ## Installation
-
 1. Clone the repository:
 ```sh
 git clone https://github.com/krigjo25/console-adieu-py.git
@@ -33,7 +31,6 @@ python app.py
 ```
 
 ##  Usage
-
 To use the application, run the following command in your terminal
 
 ```sh
@@ -44,7 +41,6 @@ python app.py <Name>
 Replace `<Name>` with the desired name, seperate the names with comma to add multiple name
 
 ## Example
-
 ```sh
 python app.py
 
@@ -56,11 +52,9 @@ Adieu, adieu to Krigjo25, and Krigjo25
 ```
 
 ## LICENCE
-
 The application is under [The Unlicensed](./LICENCE).
 
 ##  Testing framework
-
 The testing framwork for this project is pytest
 which is used to test the application. 
 To use the application, run the following command in your terminal:
