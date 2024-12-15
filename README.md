@@ -7,7 +7,7 @@ Please respect, and keep the [Academic Honesty Policy](https://cs50.harvard.edu/
 A demo of the application can be watched at [youtube]()
 
 
-##  Testing framework
+##  Testing framework / Datasets
 No testing framework used in the project
 
 ## Installation
@@ -53,9 +53,6 @@ Adieu, adieu to Krigjo25, and Krigjo25
 
 ## LICENCE
 The application is under [The Unlicensed](./LICENCE).
-
-##  Testing framework
-No testing framework used for this project
 
 ## Notes from the developer
 Created with love, for python programming,
