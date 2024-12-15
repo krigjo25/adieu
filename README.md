@@ -55,15 +55,9 @@ Adieu, adieu to Krigjo25, and Krigjo25
 The application is under [The Unlicensed](./LICENCE).
 
 ##  Testing framework
-The testing framwork for this project is pytest
-which is used to test the application. 
-To use the application, run the following command in your terminal:
-```sh
-pytest test_bank.py
-```
+No testing framework used for this project
 
 ## Notes from the developer
-
 Created with love, for python programming,
 
 Thanks for reading, and have a blessed day,<br>
