@@ -1,4 +1,5 @@
 #   Import responsories
+
 from inflect import engine
 
 def main():
@@ -9,7 +10,7 @@ def main():
     while True:
 
         #  Prompting user for input
-        x = str(input('name :')).capitalize()
+        x = str(input('Name(s) :')).capitalize()
 
         if len(x) > 0: break 
 
