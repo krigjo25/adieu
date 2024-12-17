@@ -1,4 +1,4 @@
-#   Import responsories
+#   Adieu
 
 from inflect import engine
 
