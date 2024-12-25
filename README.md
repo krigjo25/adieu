@@ -5,7 +5,7 @@ Where the names is replaced with inputed names.
 The application was implemented as a CS50P assignment.<br>
 Please respect, and keep the [Academic Honesty Policy](https://cs50.harvard.edu/x/2023/honesty/) in mind.
 
-A demo can be watched at [Demo : Adieu, Adieu](https://cs50.harvard.edu/python/2022/psets/4/adieu/)
+A demo can be watched at [CS50P's Homepage](https://cs50.harvard.edu/python/2022/psets/4/adieu/)
 
 ## Installation
 1. Clone the repository:
